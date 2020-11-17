@@ -12,8 +12,9 @@ import {
     Col,
     UncontrolledTooltip
 } from "reactstrap";
+import {toggleHireModal} from "../../actions";
 
-const Footer = ({socials, footerLinks, language}) => {
+const Footer = ({socials, footerLinks, language, toggleHireModal}) => {
 
     const links = footerLinks[language];
     const {vk, insta, gitHub, linkedIn} = socials;
@@ -34,7 +35,7 @@ const Footer = ({socials, footerLinks, language}) => {
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink to="/landing-page" tag={Link}>
+                                    <NavLink to="/works" tag={Link}>
                                         {`${links.works}`}
                                     </NavLink>
                                 </NavItem>
@@ -43,12 +44,21 @@ const Footer = ({socials, footerLinks, language}) => {
                         <Col md="3">
                             <Nav>
                                 <NavItem>
-                                    <NavLink href="">
+                                    <NavLink href=""
+                                    onClick={
+                                        (e)=> {
+                                            e.preventDefault();
+                                            toggleHireModal();
+                                        }
+                                    }
+                                    >
                                         {`${links.contact}`}
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="">
+                                    <NavLink
+                                        target="_blank"
+                                        href="https://github.com/Ivan-Kayn?tab=repositories">
                                         {`${links.about}`}
                                     </NavLink>
                                 </NavItem>
@@ -127,6 +137,8 @@ const mapStateToProps = (state) => {
     }
 }
 
-const mapDispatchToProps = {}
+const mapDispatchToProps = {
+    toggleHireModal: toggleHireModal,
+}
 
 export default connect(mapStateToProps, mapDispatchToProps)(Footer);

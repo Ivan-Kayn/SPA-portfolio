@@ -48,12 +48,12 @@ const ProjectsModal = (props) => {
 
                     <blockquote className='mr-2 ml-2'>
                         <p className="blockquote blockquote-info">
-                            This is {project.for}. {project.description}
+                            This is {project.for}. {project.destination}
                         </p>
                     </blockquote>
 
                     <div className="btn-wrapper text-center">
-                        <Button color="primary"><a target='_blank' rel="noopener norefereer" style={styles} href={process.env.PUBLIC_URL + project.link}>try it</a></Button>
+                        <Button color="primary"><a target='_blank' rel="noopener norefereer" style={styles} href={project.link}>try it</a></Button>
                     </div>
                 </div>
             </Modal>

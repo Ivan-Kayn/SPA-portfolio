@@ -9,12 +9,13 @@ import {
     goals,
     hireModalData,
     navbarData,
+    projectsPage
 } from "./storage";
 
 
 const initialState = {
     language: 'it',
-    allProjects: projects.en,
+    allProjects: projects.it,
     socials: socials,
     personalInfo: personalInfo,
     footerLinks: footerLinks,
@@ -24,7 +25,8 @@ const initialState = {
     aboutMeLabels: aboutMeLabels,
     hireModalData: hireModalData,
     navbarData: navbarData,
-    projects: projects.en,
+    projectsPage: projectsPage,
+    projects: projects.it,
     message: 'hello',
     selectedProjectId: 1,
     formModal: false,
@@ -89,6 +91,8 @@ const reducer = (state = initialState, action) => {
             return {
                 ...state,
                 language: action.payload,
+                projects: projects[action.payload],
+                allProjects: projects[action.payload]
             }
         default:
             return state;

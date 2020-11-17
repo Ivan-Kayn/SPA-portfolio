@@ -9,22 +9,36 @@ import SearchBar from "../../searchBar/SearchBar";
 import './WorksPage.scss';
 import ProjectsModal from "../../projectsModal/ProjectsModal";
 
-const WorksPage = ({projects, selectProject, filterProjects, searchString}) => {
+const WorksPage = ({projects, selectProject, filterProjects, language, projectsPage}) => {
+
+    const projectsStrings = projectsPage[language];
 
     return (
         <>
             <NavbarComponent/>
 
             <Container className='pt-6 mb-5 '>
-                <h1 className='text-center'> This are my projects </h1>
+                <h1 className='text-center'> {projectsStrings.header} </h1>
 
                 <Row className='justify-content-center my-2'>
                     <SearchBar/>
                     <div className="works__nav">
-                        <span className="works__nav-link" onClick={() => filterProjects('all')} >All </span>
-                        <span className="works__nav-link" onClick={() => filterProjects('app')} >App </span>
-                        <span className="works__nav-link" onClick={() => filterProjects('website')}>Website </span>
-                        <span className="works__nav-link" onClick={() => filterProjects('game')} >Game </span>
+                        <span className="works__nav-link"
+                              onClick={() => filterProjects('all')}>
+                            {projectsStrings.all}
+                        </span>
+                        <span className="works__nav-link"
+                              onClick={() => filterProjects('app')}>
+                            {projectsStrings.app}
+                        </span>
+                        <span className="works__nav-link"
+                              onClick={() => filterProjects('website')}>
+                            {projectsStrings.website}
+                        </span>
+                        <span className="works__nav-link"
+                              onClick={() => filterProjects('game')}>
+                            {projectsStrings.game}
+                        </span>
                     </div>
 
                 </Row>
@@ -51,7 +65,8 @@ const WorksPage = ({projects, selectProject, filterProjects, searchString}) => {
 const mapStateToProps = (state) => {
     return {
         projects: state.projects,
-        searchString: state.searchString
+        projectsPage: state.projectsPage,
+        language: state.language,
     }
 }
 

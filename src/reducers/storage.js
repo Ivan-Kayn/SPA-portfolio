@@ -5,9 +5,9 @@ const projects = {
             title: "Yoga Landing",
             category: "website",
             year: 2019,
-            link: "/projects/yoga-landing/index.html",
+            link: "https://ivan-kayn.github.io/yoga-landing/",
             iconLink: "/img/yoga_landing.png",
-            destination: "",
+            destination: "It was created to learn how to work with modals, tabs and time object in JS.",
             for: "Js study project"
         },
         {
@@ -15,233 +15,204 @@ const projects = {
             title: "Budget Web App",
             category: "app",
             year: 2019,
-            link: "",
+            link: "https://ivan-kayn.github.io/budgetApp/",
             iconLink: "/img/budget_app.png",
-            destination: ""
+            destination: "It was created to learn how to work with complex forms in pure JS.",
+            for: "Js study project"
         },
         {
             id: 3,
             title: "Irvas Landing",
             category: "website",
             year: 2020,
-            link: "",
+            link: "https://ivan-kayn.github.io/irvaslanding/",
             iconLink: "/img/irvas_landing.png",
-            destination: ""
+            destination: "It was created to learn how to made complex landing pages with all modern web technologies.",
+            for: "Js study project"
         },
         {
             id: 4,
             title: "Snake Game",
             category: "game",
             year: 2020,
-            link: "",
+            link: "https://ivan-kayn.github.io/jsnake/",
             iconLink: "/img/snake.png",
-            destination: ""
+            destination: "It was nice experience for learning how keys events works in browser API.",
+            for: "Js study project"
         },
         {
             id: 5,
             title: "Online Calculator",
             category: "app",
             year: 2020,
-            link: "",
+            link: "https://ivan-kayn.github.io/online-calculator/",
             iconLink: "/img/calculator.png",
-            destination: ""
+            destination: "It was my first project in this programming language.",
+            for: "Js study project"
         },
         {
             id: 6,
             title: "Web Portfolio 1.0",
             category: "website",
             year: 2020,
-            link: "",
+            link: "http://ivan-kayn.ru/",
             iconLink: "/img/portfolio_modal.png",
-            destination: ""
+            destination: "It was hard and complex project. It was made with HTML, Less, pure JS, all assembled with Webpack.",
+            for: "my first personal portfolio"
         },
         {
             id: 7,
-            title: "",
-            category: "",
+            title: "Blog on React",
+            category: "app",
             year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
-        },
-        {
-            id: 8,
-            title: "",
-            category: "",
-            year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
-        },
-        {
-            id: 9,
-            title: "",
-            category: "",
-            year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
-        }],
+            link: "https://ivan-kayn.github.io/react-blog/",
+            iconLink: "/img/react_blog.png",
+            destination: "It was made to learn one of the most relevant Js library.",
+            for: "React study project"
+        }
+        ],
     ru: [
         {
             id: 1,
-            title: "",
-            category: "",
-            year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
+            title: "Yoga Landing",
+            category: "website",
+            year: 2019,
+            link: "https://ivan-kayn.github.io/yoga-landing/",
+            iconLink: "/img/yoga_landing.png",
+            destination: "It was created to learn how to work with modals, tabs and time object in JS.",
+            for: "Js study project"
         },
         {
             id: 2,
-            title: "",
-            category: "",
-            year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
+            title: "Budget Web App",
+            category: "app",
+            year: 2019,
+            link: "https://ivan-kayn.github.io/budgetApp/",
+            iconLink: "/img/budget_app.png",
+            destination: "It was created to learn how to work with complex forms in pure JS.",
+            for: "Js study project"
         },
         {
             id: 3,
-            title: "",
-            category: "",
+            title: "Irvas Landing",
+            category: "website",
             year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
-        }, {
+            link: "https://ivan-kayn.github.io/irvaslanding/",
+            iconLink: "/img/irvas_landing.png",
+            destination: "It was created to learn how to made complex landing pages with all modern web technologies.",
+            for: "Js study project"
+        },
+        {
             id: 4,
-            title: "",
-            category: "",
+            title: "Snake Game",
+            category: "game",
             year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
+            link: "https://ivan-kayn.github.io/jsnake/",
+            iconLink: "/img/snake.png",
+            destination: "It was nice experience for learning how keys events works in browser API.",
+            for: "Js study project"
         },
         {
             id: 5,
-            title: "",
-            category: "",
+            title: "Online Calculator",
+            category: "app",
             year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
+            link: "https://ivan-kayn.github.io/online-calculator/",
+            iconLink: "/img/calculator.png",
+            destination: "It was my first project in this programming language.",
+            for: "Js study project"
         },
         {
             id: 6,
-            title: "",
-            category: "",
+            title: "Web Portfolio 1.0",
+            category: "website",
             year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
-        }, {
+            link: "http://ivan-kayn.ru/",
+            iconLink: "/img/portfolio_modal.png",
+            destination: "It was hard and complex project. It was made with HTML, Less, pure JS, all assembled with Webpack.",
+            for: "my first personal portfolio"
+        },
+        {
             id: 7,
-            title: "",
-            category: "",
+            title: "Blog on React",
+            category: "app",
             year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
-        },
-        {
-            id: 8,
-            title: "",
-            category: "",
-            year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
-        },
-        {
-            id: 9,
-            title: "",
-            category: "",
-            year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
+            link: "https://ivan-kayn.github.io/react-blog/",
+            iconLink: "/img/react_blog.png",
+            destination: "It was made to learn one of the most relevant Js library.",
+            for: "React study project"
         }
     ],
     it: [
         {
             id: 1,
-            title: " ",
-            category: " ",
-            year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
+            title: "Yoga Landing",
+            category: "website",
+            year: 2019,
+            link: "https://ivan-kayn.github.io/yoga-landing/",
+            iconLink: "/img/yoga_landing.png",
+            destination: "It was created to learn how to work with modals, tabs and time object in JS.",
+            for: "Js study project"
         },
         {
             id: 2,
-            title: "",
-            category: "",
-            year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
+            title: "Budget Web App",
+            category: "app",
+            year: 2019,
+            link: "https://ivan-kayn.github.io/budgetApp/",
+            iconLink: "/img/budget_app.png",
+            destination: "It was created to learn how to work with complex forms in pure JS.",
+            for: "Js study project"
         },
         {
             id: 3,
-            title: "",
-            category: "",
+            title: "Irvas Landing",
+            category: "website",
             year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
-        }, {
+            link: "https://ivan-kayn.github.io/irvaslanding/",
+            iconLink: "/img/irvas_landing.png",
+            destination: "It was created to learn how to made complex landing pages with all modern web technologies.",
+            for: "Js study project"
+        },
+        {
             id: 4,
-            title: "",
-            category: "",
+            title: "Snake Game",
+            category: "game",
             year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
+            link: "https://ivan-kayn.github.io/jsnake/",
+            iconLink: "/img/snake.png",
+            destination: "It was nice experience for learning how keys events works in browser API.",
+            for: "Js study project"
         },
         {
             id: 5,
-            title: "",
-            category: "",
+            title: "Online Calculator",
+            category: "app",
             year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
+            link: "https://ivan-kayn.github.io/online-calculator/",
+            iconLink: "/img/calculator.png",
+            destination: "It was my first project in this programming language.",
+            for: "Js study project"
         },
         {
             id: 6,
-            title: "",
-            category: "",
+            title: "Web Portfolio 1.0",
+            category: "website",
             year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
-        }, {
+            link: "http://ivan-kayn.ru/",
+            iconLink: "/img/portfolio_modal.png",
+            destination: "It was hard and complex project. It was made with HTML, Less, pure JS, all assembled with Webpack.",
+            for: "my first personal portfolio"
+        },
+        {
             id: 7,
-            title: "",
-            category: "",
+            title: "Blog on React",
+            category: "app",
             year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
-        },
-        {
-            id: 8,
-            title: "",
-            category: "",
-            year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
-        },
-        {
-            id: 9,
-            title: "",
-            category: "",
-            year: 2020,
-            link: "",
-            iconLink: "",
-            destination: ""
+            link: "https://ivan-kayn.github.io/react-blog/",
+            iconLink: "/img/react_blog.png",
+            destination: "It was made to learn one of the most relevant Js library.",
+            for: "React study project"
         }
     ]
 }
@@ -320,21 +291,21 @@ const footerLinks = {
         home: 'HOME',
         works: 'WORKS',
         contact: 'CONTACT ME',
-        about: 'ABOUT ME',
+        about: 'CODE',
         follow: 'Follow me'
     },
     it: {
         home: 'HOME',
         works: 'PROGETTI',
         contact: 'CONTATTAMI',
-        about: 'ABOUT ME',
+        about: 'CODICE',
         follow: 'Seguimi'
     },
     ru: {
         home: 'ДОМОЙ',
         works: 'РАБОТЫ',
         contact: 'СВЯЗАТЬСЯ СО МНОЙ',
-        about: 'ОБО МНЕ',
+        about: 'КОД',
         follow: 'Подпишись'
     },
 }
@@ -455,6 +426,29 @@ const navbarData = {
 
 }
 
+const projectsPage = {
+    en: {
+        header: 'This are my projects',
+        all: 'All',
+        app: 'App',
+        website: 'Website',
+        game: 'Games'
+    },
+    it: {
+        header: 'Questi sono i miei progetti',
+        all: 'Tutti',
+        app: 'Applicazioni',
+        website: 'Siti',
+        game: 'Giochi'
+    },
+    ru: {
+        header: 'Это мои проекты',
+        all: 'Все',
+        app: 'Приложения',
+        website: 'Сайты',
+        game: 'Игры'
+    }
+}
 
 export {
     projects,
@@ -467,4 +461,5 @@ export {
     goals,
     hireModalData,
     navbarData,
+    projectsPage
 }
