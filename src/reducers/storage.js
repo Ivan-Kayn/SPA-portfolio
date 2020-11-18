@@ -357,7 +357,7 @@ const goals = {
     },
     it: {
         firstQuestion: "Perchè hai scelto la programmazione?",
-        firstAnswer: "Ho scelto la programmazione perché l'ho trovata adatta ad ed esprimere al meglio i miei interessi e le mie capacità. E' una di quelle" +
+        firstAnswer: "Ho scelto la programmazione perché l'ho trovata adatta ad esprimere al meglio i miei interessi e le mie capacità. E' una di quelle" +
             " attività che fanno scorrere tutto il mio tempo fino al punto di dire 'stop, sono già le 9 di serra?' " +
             "Si tratta solo di passione, niente da fare con i trend o con la gara per i soldi.",
         secondQuestion: "Perchè hai scelto il settore web?",
