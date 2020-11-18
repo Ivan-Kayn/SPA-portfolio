@@ -318,7 +318,7 @@ const tabs = {
     },
     it: {
         about: 'CHI SONO',
-        skills: 'LE MIE COMPETENZE',
+        skills: 'COMPETENZE',
         goal: 'OBIETTIVI'
     },
     ru: {
