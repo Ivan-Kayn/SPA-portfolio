@@ -48,7 +48,7 @@ const ProjectsModal = (props) => {
 
                     <blockquote className='mr-2 ml-2'>
                         <p className="blockquote blockquote-info">
-                            This is {project.for}. {project.destination}
+                            {project.for} {project.destination}
                         </p>
                     </blockquote>
 

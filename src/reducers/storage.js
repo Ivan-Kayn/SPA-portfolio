@@ -8,7 +8,7 @@ const projects = {
             link: "https://ivan-kayn.github.io/yoga-landing/",
             iconLink: "/img/yoga_landing.png",
             destination: "It was created to learn how to work with modals, tabs and time object in JS.",
-            for: "Js study project"
+            for: "This is Js study project."
         },
         {
             id: 2,
@@ -18,7 +18,7 @@ const projects = {
             link: "https://ivan-kayn.github.io/budgetApp/",
             iconLink: "/img/budget_app.png",
             destination: "It was created to learn how to work with complex forms in pure JS.",
-            for: "Js study project"
+            for: "This is Js study project."
         },
         {
             id: 3,
@@ -28,7 +28,7 @@ const projects = {
             link: "https://ivan-kayn.github.io/irvaslanding/",
             iconLink: "/img/irvas_landing.png",
             destination: "It was created to learn how to made complex landing pages with all modern web technologies.",
-            for: "Js study project"
+            for: "This is Js study project."
         },
         {
             id: 4,
@@ -38,7 +38,7 @@ const projects = {
             link: "https://ivan-kayn.github.io/jsnake/",
             iconLink: "/img/snake.png",
             destination: "It was nice experience for learning how keys events works in browser API.",
-            for: "Js study project"
+            for: "This is Js study project."
         },
         {
             id: 5,
@@ -48,7 +48,7 @@ const projects = {
             link: "https://ivan-kayn.github.io/online-calculator/",
             iconLink: "/img/calculator.png",
             destination: "It was my first project in this programming language.",
-            for: "Js study project"
+            for: "This is Js study project."
         },
         {
             id: 6,
@@ -58,7 +58,7 @@ const projects = {
             link: "http://ivan-kayn.ru/",
             iconLink: "/img/portfolio_modal.png",
             destination: "It was hard and complex project. It was made with HTML, Less, pure JS, all assembled with Webpack.",
-            for: "my first personal portfolio"
+            for: "This is my first personal portfolio."
         },
         {
             id: 7,
@@ -68,91 +68,91 @@ const projects = {
             link: "https://ivan-kayn.github.io/react-blog/",
             iconLink: "/img/react_blog.png",
             destination: "It was made to learn one of the most relevant Js library.",
-            for: "React study project"
+            for: "This is React study project."
         }
         ],
     ru: [
         {
             id: 1,
-            title: "Yoga Landing",
-            category: "website",
+            title: "Йога Лендинг",
+            category: "сайт",
             year: 2019,
             link: "https://ivan-kayn.github.io/yoga-landing/",
             iconLink: "/img/yoga_landing.png",
-            destination: "It was created to learn how to work with modals, tabs and time object in JS.",
-            for: "Js study project"
+            destination: "Он был создан для изучения работы с модальными окнами, табами и временем в JS.",
+            for: "Это проект для изучения JS."
         },
         {
             id: 2,
-            title: "Budget Web App",
-            category: "app",
+            title: "Счетчик Бюджета",
+            category: "приложение",
             year: 2019,
             link: "https://ivan-kayn.github.io/budgetApp/",
             iconLink: "/img/budget_app.png",
-            destination: "It was created to learn how to work with complex forms in pure JS.",
-            for: "Js study project"
+            destination: "Он был создан чтобы научиться работать с сложными формами на чистом JS.",
+            for: "Это проект для изучения JS."
         },
         {
             id: 3,
-            title: "Irvas Landing",
-            category: "website",
+            title: "Ирвас Лендинг",
+            category: "сайт",
             year: 2020,
             link: "https://ivan-kayn.github.io/irvaslanding/",
             iconLink: "/img/irvas_landing.png",
-            destination: "It was created to learn how to made complex landing pages with all modern web technologies.",
-            for: "Js study project"
+            destination: "Он был создан чтобы научиться делать современные сложные лендинги.",
+            for: "Это проект для изучения JS."
         },
         {
             id: 4,
-            title: "Snake Game",
-            category: "game",
+            title: "Змейка",
+            category: "игра",
             year: 2020,
             link: "https://ivan-kayn.github.io/jsnake/",
             iconLink: "/img/snake.png",
-            destination: "It was nice experience for learning how keys events works in browser API.",
-            for: "Js study project"
+            destination: "Это был хороший опыт чтобы научиться работать с событиями клавиш в браузере.",
+            for: "Это проект для изучения JS."
         },
         {
             id: 5,
-            title: "Online Calculator",
-            category: "app",
+            title: "Калькулятор",
+            category: "приложение",
             year: 2020,
             link: "https://ivan-kayn.github.io/online-calculator/",
             iconLink: "/img/calculator.png",
-            destination: "It was my first project in this programming language.",
-            for: "Js study project"
+            destination: "Это было первое написанное приложение на JS. Теплые воспоминания.",
+            for: "Это проект для изучения JS."
         },
         {
             id: 6,
-            title: "Web Portfolio 1.0",
-            category: "website",
+            title: "Веб Портфолио 1.0",
+            category: "сайт",
             year: 2020,
             link: "http://ivan-kayn.ru/",
             iconLink: "/img/portfolio_modal.png",
-            destination: "It was hard and complex project. It was made with HTML, Less, pure JS, all assembled with Webpack.",
-            for: "my first personal portfolio"
+            destination: "Этот проект был достаточно сложным и большим. Он был сделан с применением препроцессора Less, чистого JS и собранным через Webpack.",
+            for: "Это мой первый сайт портфолио."
         },
         {
             id: 7,
-            title: "Blog on React",
-            category: "app",
+            title: "Блог на React",
+            category: "приложение",
             year: 2020,
             link: "https://ivan-kayn.github.io/react-blog/",
             iconLink: "/img/react_blog.png",
-            destination: "It was made to learn one of the most relevant Js library.",
-            for: "React study project"
+            destination: "Он был сделан чтобы понять базовые принципы одностраничных приложений и работы с библиотекой React.",
+            for: "Это проект для изучения React."
         }
     ],
     it: [
         {
             id: 1,
             title: "Yoga Landing",
-            category: "website",
+            category: "sito",
             year: 2019,
             link: "https://ivan-kayn.github.io/yoga-landing/",
             iconLink: "/img/yoga_landing.png",
-            destination: "It was created to learn how to work with modals, tabs and time object in JS.",
-            for: "Js study project"
+            destination: "E' stato creato per imparare a lavorare con le finestre modali (popup), le tabs e il funziona dell'oggetto 'tempo' in JS.",
+            for: "Questo è un progetto di studio di JS."
         },
         {
             id: 2,
@@ -161,8 +161,8 @@ const projects = {
             year: 2019,
             link: "https://ivan-kayn.github.io/budgetApp/",
             iconLink: "/img/budget_app.png",
-            destination: "It was created to learn how to work with complex forms in pure JS.",
-            for: "Js study project"
+            destination: "E' stato creato per imparare a lavorare con le forme in JS senza librerie esterne.",
+            for: "Questo è un progetto di studio di JS."
         },
         {
             id: 3,
@@ -171,8 +171,8 @@ const projects = {
             year: 2020,
             link: "https://ivan-kayn.github.io/irvaslanding/",
             iconLink: "/img/irvas_landing.png",
-            destination: "It was created to learn how to made complex landing pages with all modern web technologies.",
-            for: "Js study project"
+            destination: "E' stato creato per imparare a programmare siti landing complessi con tutte le tecnologie moderne.",
+            for: "Questo è un progetto di studio di JS."
         },
         {
             id: 4,
@@ -181,8 +181,8 @@ const projects = {
             year: 2020,
             link: "https://ivan-kayn.github.io/jsnake/",
             iconLink: "/img/snake.png",
-            destination: "It was nice experience for learning how keys events works in browser API.",
-            for: "Js study project"
+            destination: "E' stata un'esperienza importante per imparare come funzionano gli eventi del browser API legati ai tasti.",
+            for: "Questo è un progetto di studio di JS."
         },
         {
             id: 5,
@@ -191,8 +191,8 @@ const projects = {
             year: 2020,
             link: "https://ivan-kayn.github.io/online-calculator/",
             iconLink: "/img/calculator.png",
-            destination: "It was my first project in this programming language.",
-            for: "Js study project"
+            destination: "E' il primo che ho fatto utilizzando questo linguaggio.",
+            for: "Questo è un progetto di studio di JS."
         },
         {
             id: 6,
@@ -201,8 +201,8 @@ const projects = {
             year: 2020,
             link: "http://ivan-kayn.ru/",
             iconLink: "/img/portfolio_modal.png",
-            destination: "It was hard and complex project. It was made with HTML, Less, pure JS, all assembled with Webpack.",
-            for: "my first personal portfolio"
+            destination: "E' un progetto complesso, fatto utilizzando Less, JS puro e tutto assemblato con Webpack.",
+            for: "Questo è il mio primo sito portfolio."
         },
         {
             id: 7,
@@ -211,8 +211,8 @@ const projects = {
             year: 2020,
             link: "https://ivan-kayn.github.io/react-blog/",
             iconLink: "/img/react_blog.png",
-            destination: "It was made to learn one of the most relevant Js library.",
-            for: "React study project"
+            destination: "E' stato creato per imparare le basi di React. It was made to learn one of the most relevant Js library.",
+            for: "Questo è un progetto di studio di React JS."
         }
     ]
 }
@@ -357,7 +357,7 @@ const goals = {
     },
     it: {
         firstQuestion: "Perchè hai scelto la programmazione?",
-        firstAnswer: "Ho scelto la programmazione perché ho trovato me stesso in questo ambito. E' una di quelle" +
+        firstAnswer: "Ho scelto la programmazione perché l'ho trovata adatta ad ed esprimere al meglio i miei interessi e le mie capacità. E' una di quelle" +
             " attività che fanno scorrere tutto il mio tempo fino al punto di dire 'stop, sono già le 9 di serra?' " +
             "Si tratta solo di passione, niente da fare con i trend o con la gara per i soldi.",
         secondQuestion: "Perchè hai scelto il settore web?",
