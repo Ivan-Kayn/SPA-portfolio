@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/SPA-portfolio/static/css/main.31f0ecb7.chunk.css",
-    "main.js": "/SPA-portfolio/static/js/main.14bf4972.chunk.js",
-    "main.js.map": "/SPA-portfolio/static/js/main.14bf4972.chunk.js.map",
-    "runtime-main.js": "/SPA-portfolio/static/js/runtime-main.62e0bef3.js",
-    "runtime-main.js.map": "/SPA-portfolio/static/js/runtime-main.62e0bef3.js.map",
-    "static/js/2.11da0e9e.chunk.js": "/SPA-portfolio/static/js/2.11da0e9e.chunk.js",
-    "static/js/2.11da0e9e.chunk.js.map": "/SPA-portfolio/static/js/2.11da0e9e.chunk.js.map",
-    "index.html": "/SPA-portfolio/index.html",
-    "precache-manifest.335fbe5db838dc19c4f681bfc07a3de1.js": "/SPA-portfolio/precache-manifest.335fbe5db838dc19c4f681bfc07a3de1.js",
-    "service-worker.js": "/SPA-portfolio/service-worker.js",
-    "static/css/main.31f0ecb7.chunk.css.map": "/SPA-portfolio/static/css/main.31f0ecb7.chunk.css.map",
-    "static/js/2.11da0e9e.chunk.js.LICENSE.txt": "/SPA-portfolio/static/js/2.11da0e9e.chunk.js.LICENSE.txt",
-    "static/media/blk-design-system-react.scss?v=1.1.0": "/SPA-portfolio/static/media/square5.ff004a0e.png",
-    "static/media/italy.svg": "/SPA-portfolio/static/media/italy.36b7e686.svg",
-    "static/media/nucleo-icons.css": "/SPA-portfolio/static/media/nucleo.f0b489a5.woff",
-    "static/media/russia.svg": "/SPA-portfolio/static/media/russia.de519843.svg",
-    "static/media/united-kingdom.svg": "/SPA-portfolio/static/media/united-kingdom.bd1aa534.svg"
+    "main.css": "/static/css/main.8a563610.chunk.css",
+    "main.js": "/static/js/main.ffcdb53e.chunk.js",
+    "main.js.map": "/static/js/main.ffcdb53e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.49a21cd8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.49a21cd8.js.map",
+    "static/js/2.11da0e9e.chunk.js": "/static/js/2.11da0e9e.chunk.js",
+    "static/js/2.11da0e9e.chunk.js.map": "/static/js/2.11da0e9e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e9a4a3ee0185e7019439654aea4aa593.js": "/precache-manifest.e9a4a3ee0185e7019439654aea4aa593.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.8a563610.chunk.css.map": "/static/css/main.8a563610.chunk.css.map",
+    "static/js/2.11da0e9e.chunk.js.LICENSE.txt": "/static/js/2.11da0e9e.chunk.js.LICENSE.txt",
+    "static/media/blk-design-system-react.scss?v=1.1.0": "/static/media/square5.ff004a0e.png",
+    "static/media/italy.svg": "/static/media/italy.36b7e686.svg",
+    "static/media/nucleo-icons.css": "/static/media/nucleo.f0b489a5.woff",
+    "static/media/russia.svg": "/static/media/russia.de519843.svg",
+    "static/media/united-kingdom.svg": "/static/media/united-kingdom.bd1aa534.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.62e0bef3.js",
+    "static/js/runtime-main.49a21cd8.js",
     "static/js/2.11da0e9e.chunk.js",
-    "static/css/main.31f0ecb7.chunk.css",
-    "static/js/main.14bf4972.chunk.js"
+    "static/css/main.8a563610.chunk.css",
+    "static/js/main.ffcdb53e.chunk.js"
   ]
 }
