@@ -55,7 +55,7 @@ const projects = {
             title: "Web Portfolio 1.0",
             category: "website",
             year: 2020,
-            link: "http://ivan-kayn.ru/",
+            link: "https://ivan-kayn.github.io/portfolio-1/",
             iconLink: "/img/portfolio_modal.png",
             destination: "It was hard and complex project. It was made with HTML, Less, pure JS, all assembled with Webpack.",
             for: "This is my first personal portfolio."
@@ -127,7 +127,7 @@ const projects = {
             title: "Веб Портфолио 1.0",
             category: "сайт",
             year: 2020,
-            link: "http://ivan-kayn.ru/",
+            link: "https://ivan-kayn.github.io/portfolio-1/",
             iconLink: "/img/portfolio_modal.png",
             destination: "Этот проект был достаточно сложным и большим. Он был сделан с применением препроцессора Less, чистого JS и собранным через Webpack.",
             for: "Это мой первый сайт портфолио."
@@ -199,7 +199,7 @@ const projects = {
             title: "Web Portfolio 1.0",
             category: "website",
             year: 2020,
-            link: "http://ivan-kayn.ru/",
+            link: "https://ivan-kayn.github.io/portfolio-1/",
             iconLink: "/img/portfolio_modal.png",
             destination: "E' un progetto complesso, fatto utilizzando Less, JS puro e tutto assemblato con Webpack.",
             for: "Questo è il mio primo sito portfolio."

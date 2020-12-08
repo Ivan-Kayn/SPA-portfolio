@@ -13,10 +13,10 @@ import {
 import classnames from "classnames";
 import {onEmailFocus, toggleHireModal} from "../../actions";
 
-const HireModal = ({hireModal, toggleHireModal, onEmailFocus, language, emailFocus, hireModalData}) => {
+const HireModal = ({hireModal, toggleHireModal, onEmailFocus, language, emailFocus, hireModalData, socials}) => {
 
     const {header, label, number, email, button} = hireModalData[language];
-
+    const {vk, insta, linkedIn, gitHub} = socials;
     return (
         <>
             <Modal
@@ -40,32 +40,32 @@ const HireModal = ({hireModal, toggleHireModal, onEmailFocus, language, emailFoc
                         <Button
                             className="btn-neutral btn-icon"
                             color="default"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href={gitHub}
+                            target="_blank"
                         >
                             <i className='fab fa-github'/>
                         </Button>
                         <Button
                             className="btn-neutral btn-icon"
                             color="default"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href={linkedIn}
+                            target="_blank"
                         >
                             <i className='fab fa-linkedin'/>
                         </Button>
                         <Button
                             className="btn-neutral btn-icon"
                             color="default"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href={insta}
+                            target="_blank"
                         >
                             <i className='fab fa-instagram'/>
                         </Button>
                         <Button
                             className="btn-neutral btn-icon"
                             color="default"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href={vk}
+                            target="_blank"
                         >
                             <i className='fab fa-vk'/>
                         </Button>
@@ -123,6 +123,7 @@ const mapStateToProps = (state) => {
         emailFocus: state.emailFocus,
         hireModalData: state.hireModalData,
         language: state.language,
+        socials: state.socials,
     }
 }
 
