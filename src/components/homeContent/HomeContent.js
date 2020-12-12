@@ -39,14 +39,13 @@ class HomeContent extends React.Component {
                     style={{paddingTop:'150px'}}
 
                 >
-                    {/* color-classes: "nav-pills-primary", "nav-pills-info", "nav-pills-success", "nav-pills-warning","nav-pills-danger" */}
                     <NavItem>
                         <NavLink
                             className={classnames({
                                 active: this.state.withIcons === 1
                             })}
                             onClick={e => this.toggleTabs(e, "withIcons", 1)}
-                            href="#pablo"
+
                         >
                             <i className="tim-icons icon-single-02 d-none d-md-block" />
                             {`${about}`}
@@ -58,7 +57,7 @@ class HomeContent extends React.Component {
                                 active: this.state.withIcons === 2
                             })}
                             onClick={e => this.toggleTabs(e, "withIcons", 2)}
-                            href="#pablo"
+
                         >
                             <i className="tim-icons icon-html5 d-none d-md-block" />
                             {`${skills}`}
@@ -70,7 +69,7 @@ class HomeContent extends React.Component {
                                 active: this.state.withIcons === 3
                             })}
                             onClick={e => this.toggleTabs(e, "withIcons", 3)}
-                            href="#pablo"
+
                         >
                             <i className="tim-icons icon-spaceship d-none d-md-block" />
                             {`${goal}`}
