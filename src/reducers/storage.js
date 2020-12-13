@@ -25,7 +25,7 @@ const projects = {
             title: "Irvas Landing",
             category: "website",
             year: 2020,
-            link: "https://ivan-kayn.github.io/irvaslanding/",
+            link: "https://ivan-kayn.github.io/portfolio-1/assets/projects/irvas_landing/index.html",
             iconLink: "/img/irvas_landing.png",
             destination: "It was created to learn how to made complex landing pages with all modern web technologies.",
             for: "This is Js study project."
@@ -97,7 +97,7 @@ const projects = {
             title: "Ирвас Лендинг",
             category: "сайт",
             year: 2020,
-            link: "https://ivan-kayn.github.io/irvaslanding/",
+            link: "https://ivan-kayn.github.io/portfolio-1/assets/projects/irvas_landing/index.html",
             iconLink: "/img/irvas_landing.png",
             destination: "Он был создан чтобы научиться делать современные сложные лендинги.",
             for: "Это проект для изучения JS."
@@ -169,7 +169,7 @@ const projects = {
             title: "Irvas Landing",
             category: "website",
             year: 2020,
-            link: "https://ivan-kayn.github.io/irvaslanding/",
+            link: "https://ivan-kayn.github.io/portfolio-1/assets/projects/irvas_landing/index.html",
             iconLink: "/img/irvas_landing.png",
             destination: "E' stato creato per imparare a programmare siti landing complessi con tutte le tecnologie moderne.",
             for: "Questo è un progetto di studio di JS."
