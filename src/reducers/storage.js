@@ -6,7 +6,7 @@ const projects = {
             category: "app",
             year: 2020,
             link: "https://ivan-kayn.github.io/exel/#",
-            iconLink: "/img/Excel_App.jpg",
+            iconLink: "/img/Excel_App.png",
             destination: "It was created in pure JS, without any library. As store it use redux with localStorage.",
             for: "This is Js project. "
         },
@@ -88,7 +88,7 @@ const projects = {
             category: "app",
             year: 2020,
             link: "https://ivan-kayn.github.io/exel/#",
-            iconLink: "/img/Excel_App.jpg",
+            iconLink: "/img/Excel_App.png",
             destination: "Не были использованы какие либо библиотеки. Для хранения данных используется localStorage " +
                 "который работает через redux.",
             for: "Данный проект создан на чистом JS. "
@@ -171,7 +171,7 @@ const projects = {
             category: "app",
             year: 2020,
             link: "https://ivan-kayn.github.io/exel/#",
-            iconLink: "/img/Excel_App.jpg",
+            iconLink: "/img/Excel_App.png",
             destination: "Non sono state usate librerie esterne. I dati vengono salvati nel localStorage e come intermedio viene usato redux.",
             for: "Questo progetto è stato fatto in JS puro. "
         },
