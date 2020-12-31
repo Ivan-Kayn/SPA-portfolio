@@ -38,13 +38,14 @@ const ProjectsModal = (props) => {
                     </div>
                 </div>
                 <div className="modal-body mt-0 pt-0">
-
+                    <a href={project.link} target='_blank'>
                     <img
                         alt="..."
                         className="img-fluid rounded"
                         src={process.env.PUBLIC_URL + project.iconLink}
                         style={{}}
                     />
+                    </a>
 
                     <blockquote className='mr-2 ml-2'>
                         <p className="blockquote blockquote-info">

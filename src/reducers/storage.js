@@ -1,6 +1,16 @@
 const projects = {
     en: [
         {
+            id: 0,
+            title: "Excel SPA",
+            category: "app",
+            year: 2020,
+            link: "https://ivan-kayn.github.io/exel/#",
+            iconLink: "/img/Excel_App.jpg",
+            destination: "It was created in pure JS, without any library. As store it use redux with localStorage.",
+            for: "This is Js project. "
+        },
+        {
             id: 1,
             title: "Yoga Landing",
             category: "website",
@@ -34,7 +44,7 @@ const projects = {
             id: 4,
             title: "Snake Game",
             category: "game",
-            year: 2020,
+            year: 2019,
             link: "https://ivan-kayn.github.io/jsnake/",
             iconLink: "/img/snake.png",
             destination: "It was nice experience for learning how keys events works in browser API.",
@@ -44,7 +54,7 @@ const projects = {
             id: 5,
             title: "Online Calculator",
             category: "app",
-            year: 2020,
+            year: 2019,
             link: "https://ivan-kayn.github.io/online-calculator/",
             iconLink: "/img/calculator.png",
             destination: "It was my first project in this programming language.",
@@ -72,6 +82,17 @@ const projects = {
         }
         ],
     ru: [
+        {
+            id: 0,
+            title: "Excel на JS",
+            category: "app",
+            year: 2020,
+            link: "https://ivan-kayn.github.io/exel/#",
+            iconLink: "/img/Excel_App.jpg",
+            destination: "Не были использованы какие либо библиотеки. Для хранения данных используется localStorage " +
+                "который работает через redux.",
+            for: "Данный проект создан на чистом JS. "
+        },
         {
             id: 1,
             title: "Йога Лендинг",
@@ -106,7 +127,7 @@ const projects = {
             id: 4,
             title: "Змейка",
             category: "игра",
-            year: 2020,
+            year: 2019,
             link: "https://ivan-kayn.github.io/jsnake/",
             iconLink: "/img/snake.png",
             destination: "Это был хороший опыт чтобы научиться работать с событиями клавиш в браузере.",
@@ -116,7 +137,7 @@ const projects = {
             id: 5,
             title: "Калькулятор",
             category: "приложение",
-            year: 2020,
+            year: 2019,
             link: "https://ivan-kayn.github.io/online-calculator/",
             iconLink: "/img/calculator.png",
             destination: "Это было первое написанное приложение на JS. Теплые воспоминания.",
@@ -144,6 +165,16 @@ const projects = {
         }
     ],
     it: [
+        {
+            id: 0,
+            title: "Excel SPA",
+            category: "app",
+            year: 2020,
+            link: "https://ivan-kayn.github.io/exel/#",
+            iconLink: "/img/Excel_App.jpg",
+            destination: "Non sono state usate librerie esterne. I dati vengono salvati nel localStorage e come intermedio viene usato redux.",
+            for: "Questo progetto è stato fatto in JS puro. "
+        },
         {
             id: 1,
             title: "Yoga Landing",
@@ -178,7 +209,7 @@ const projects = {
             id: 4,
             title: "Snake Game",
             category: "game",
-            year: 2020,
+            year: 2019,
             link: "https://ivan-kayn.github.io/jsnake/",
             iconLink: "/img/snake.png",
             destination: "E' stata un'esperienza importante per imparare come funzionano gli eventi del browser API legati ai tasti.",
@@ -188,7 +219,7 @@ const projects = {
             id: 5,
             title: "Online Calculator",
             category: "app",
-            year: 2020,
+            year: 2019,
             link: "https://ivan-kayn.github.io/online-calculator/",
             iconLink: "/img/calculator.png",
             destination: "E' il primo che ho fatto utilizzando questo linguaggio.",
